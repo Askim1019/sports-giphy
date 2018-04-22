@@ -1,3 +1,62 @@
 * {
     outline: 1px solid red;
 }
+
+header {
+    font-size: 55px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #65e41b;
+    padding: 15px;
+}
+
+#sportsButton {
+    background-color: yellow;
+    padding: 15px;
+}
+
+.main {
+    display: flex;
+}
+
+form {
+    box-sizing: border-box;
+    flex: 1;
+}
+
+#sports-gif {
+    flex: 2;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#sports-form label {
+    display: block;
+    font-weight: bolder;
+    margin: 15px 15px;
+}
+
+#sports-input {
+    display: block;
+    margin: 15px 15px;
+}
+
+#searchGif {
+    margin: 10px 15px;
+    background-color: #555555;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    padding: 8px 16px;
+}
+
+
+#searchGif:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+
