@@ -42,7 +42,7 @@ $(document).ready(function(){
             console.log(query);
         
             $.ajax({
-                url: "http://api.giphy.com/v1/gifs/search?q=" + "sports " + query + "&api_key=" + apikey,
+                url: "https://api.giphy.com/v1/gifs/search?q=" + "sports " + query + "&api_key=" + apikey,
                 method: "GET" 
             }).then(function(response){
                 console.log(response);
