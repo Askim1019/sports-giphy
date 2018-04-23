@@ -2,6 +2,10 @@
     outline: 1px solid red;
 } */
 
+body {
+    margin: 0;
+}
+
 header h1 {
     font-size: 45px;
     text-align: center;
@@ -43,6 +47,7 @@ form {
 #sports-input {
     display: block;
     margin: 15px 15px;
+    font-size: 20px;
 }
 
 #searchGif {
@@ -67,8 +72,21 @@ form {
 .button {
     margin: 5px 10px;
     padding: 5px 15px; 
-    background-color: rgba(21, 133, 7, 0.877);
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+    font-size: 12px;
+    -webkit-transition-duration: 0.6s; /* Safari */
+    transition-duration: 0.6s;
+    padding: 8px 16px;
+    box-shadow: 0px 6px 0px, 0px 3px 15px;
+}
+
+.button:hover {
+    background-color: #0d78f1d2;
     color: white;
+    cursor: pointer;
+    box-shadow: 0px 6px 0px, 0px 3px 15px, rgba(0, 0, 0, 0.952);
 }
 
 .gif {
