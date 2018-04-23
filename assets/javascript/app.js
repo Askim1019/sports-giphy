@@ -15,6 +15,9 @@ $(document).ready(function(){
         }
     }
 
+    function resetInput(){
+        $("#sports-input").val("");
+    }
 
     $("#searchGif").click(function(event){
         event.preventDefault();
@@ -25,7 +28,10 @@ $(document).ready(function(){
             buttonArray.push(userInput);
             renderButtons();
             renderGif();
+            resetInput();
         }
+
+       
     });
         
     function renderGif() {
